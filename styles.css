@@ -1,0 +1,57 @@
+body{
+    background-color: floralwhite;
+    font-size: 1rem;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-family: ;
+    font-size: 2rem;
+}
+
+
+.input{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-input{
+    padding: 5px;
+}
+
+select{
+    padding: 5px;
+}
+
+form{
+    width: 550px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.container{
+    width: 550px;
+    margin: auto;
+}
+
+textarea{
+    height: 100px;
+}
+
+.radio{
+    margin-top: 10px;
+}
+
+.checkbox{
+    margin-top: 10px;
+}
+
+button{
+    padding: 5px;
+}

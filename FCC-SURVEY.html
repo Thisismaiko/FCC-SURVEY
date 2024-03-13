@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+    <body>
+        <h1 id="title">Do you like Onigiri?</h1>
+        <p id="description">A survey about rice balls!</p>
+    <div class="container">
+        <form id="survey-form">
+        <div class="input">
+            <label 
+            id="name-label" 
+            for="name">Name
+            </label>
+            <input 
+            type="text" 
+            id="name" 
+            placeholder="enter your name" 
+            name="name" 
+            class="text-input"
+            required>
+        </div>
+        <div class="input">
+            <label 
+            id="email-label" 
+            for="email">Email
+            </label>
+            <input 
+            type="email" 
+            id="email" 
+            placeholder="enter your email" 
+            name="email" 
+            class="text-input"
+            required>
+        </div>
+        <div class="input">
+            <label
+            id="number-label"
+            for="age">Age
+            </label>
+            <input
+            type="number"
+            id="number"
+            name="age"
+            min="5"
+            max="105"
+            placeholder="age"
+            class="text-input"
+            required>
+        </div>
+        <div class="input">
+            <p>Have you heard of Onigiri?</p>
+            <select 
+            id="dropdown"
+            name="like"
+            required>
+            <option desables selected value>Please select</option>
+            <option value="I LOVE Onigiris!">I LOVE Onigiris!</option>
+            <option value="They are ok"> They are ok </option>
+            <option value="Oni what?"> Oni what?</option>
+            <option value="Yuck! Not my favorite"> Yuck! Not my favorite</option>
+        </select>
+        </div>
+        <div class="input">
+            <p>How often do you eat Onigiris?</p>
+                <div class="radio">
+                <input 
+                type="radio"
+                value="everyday"
+                name="frequency"
+                id="radio1"
+                checked>
+                <label
+                for="radio1">Everyday</label>
+                </div>
+                <div class="radio">
+                <input 
+                type="radio"
+                value="Every week"
+                name="frequency"
+                id="radio2">
+                <label 
+                for="radio2">Once a week</label>
+            </div>
+            <div class="radio">
+                <input 
+                type="radio"
+                value="Once a month"
+                name="frequency"
+                id="radio3">
+                <label 
+                for="radio3">Once a month</label>
+                </div>
+                <div class="radio">
+                <input 
+                type="radio"
+                value="Once a year"
+                name="frequency"
+                id="radio4">
+                <label 
+                for="radio4">Once a year</label>
+            </div class="radio">
+            <div class="radio">
+                <input 
+                type="radio"
+                value="Never"
+                name="frequency"
+                id="radio3">
+                <label 
+                for="radio3">Never</label>
+            </div>
+        </div>
+        <div class="input">
+                <p>What type of Onigiri flavors you have tried before?</p>
+                <label><input 
+                    type="checkbox" 
+                    name="length"
+                    value="Ume (plum)"
+                    class="checkbox"
+                    checked/>
+                    Ume (plum)</label>
+                <label><input 
+                    type="checkbox" 
+                    name="length"
+                    value="Salmon"
+                    class="checkbox"/>
+                    Salmon</label>
+                <label><input 
+                    type="checkbox" 
+                    name="length"
+                    value="Tuna"
+                    class="checkbox"/>
+                    Tuna</label>
+                <label><input 
+                    type="checkbox" 
+                    name="length"
+                    value="Tarako (cod roe)"
+                    class="checkbox"/>
+                    Tarako (cod roe)</label>
+                <label><input 
+                    type="checkbox" 
+                    name="length"
+                    value="Konbu"
+                    class="checkbox"/>
+                    Konbu</label>
+                <label><input 
+                    type="checkbox" 
+                    name="length"
+                    value="Other"
+                    class="checkbox"/>
+                    Other</label>
+        </div>
+        <div class="input">
+                <p>What flavors of Onigiri do you want to try next?</p>
+                <textarea
+                id="comment"
+                name="comment"
+                placeholder="Possibilities are limitless!"></textarea>
+        </div>
+        <div class="input">
+            <button 
+            type="submit"
+            id="submit"
+            class="submit-buton">Submit</button>
+        </div>
+    </form>
+</div>
+</body >
+</html>
